@@ -1,0 +1,34 @@
+@media (max-width:500px), handheld and (orientation: landscape) {
+    .sectionOne{
+        margin-bottom: 10px;
+    }
+    .sectionTwo{
+        display: inline;
+        text-align: left;
+    }
+    .sectionTwo .sectionTwo_item{
+        padding-left: 0px;
+        border-top: 2px solid rgb(52, 219, 169);
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sectionTwo .sectionTwo_item .day{
+        width: 95px;
+    }
+}
+@media (max-width:300px){
+    .container{
+        min-width: 250px;
+    }
+    .sectionOne{
+        font-size: 13px;
+    }
+    .sectionTwo{
+        font-size: 13px;
+    }
+    .sectionOne_other_today_detail span{
+        font-size: 20px;
+    }
+}

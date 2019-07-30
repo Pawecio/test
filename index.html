@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="sectionOne">
+
+            <div class="dropdown">
+                <button onclick="dropDownFun()" class="dropbtn">City</button>
+                <div id="myDropdown" class="dropdown-content">     
+                    <a class="city_click city_one"></a>
+                    <a class="city_click city_two"></a>
+                    <a class="city_click city_three"></a>
+                </div>
+            </div>
+
+        <div class="sectionOne_other">
+            <div class="sectionOne_other_today">
+                <p class="date">Date</p>
+                <p class="type_sky">Sky</p>
+                <div class="sectionOne_other_today_detail">
+                    <img src="" alt="sky" id="sky_image">
+                    <span id="temperature"></span><sup>&#186F</sup>
+                </div>  
+            </div>
+
+            <div class="sectionOne_other_details">
+                <p>Precipitation: <span class="color precipitation"></span></p>
+                <p>Humidity: <span class="color humidity"></span></p>
+                <p>Wind: <span class="color wind"></span></p>
+                <p>Pollen Count: <span class="color pollen_count"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+        <div class="sectionTwo">
+            <div class="sectionTwo_item sectionTwo_item_today">
+                <p class="day today"></p>
+                <img id="img_today" src="Assets/rain_light.png" alt="sky">
+                <p><span class="temp_today"></span><sup>&#186</sup></p>
+                <p class="pollen ">Pollen <span class="pollen_today"></span></p>
+            </div>
+            <div class="sectionTwo_item sectionTwo_item_first_day">
+                <p class="day first_day"></p>
+                <img id="img_first_day" src="Assets/sunny.png" alt="sky">
+                <p><span class="temp_first_day"></span><sup>&#186</sup></p>
+                <p class="pollen ">Pollen <span class="pollen_first_day"></span></p>
+            </div>
+            <div class="sectionTwo_item sectionTwo_item_second_day">
+                <p class="day second_day"></p>
+                <img id="img_second_day" src="Assets/sunny.png" alt="sky">
+                <p><span class="temp_second_day"></span><sup>&#186</sup></p>
+                <p class="pollen ">Pollen <span class="pollen_second_day"></span></p>
+            </div>
+            <div class="sectionTwo_item sectionTwo_item_third_day">
+                <p class="day third_day"></p>
+                <img id="img_third_day" src="Assets/partly_cloudy.png" alt="sky">
+                <p><span class="temp_third_day"></span><sup>&#186</sup></p>
+                <p class="pollen ">Pollen <span class="pollen_third_day"></span></p>
+            </div>
+            <!--
+            <div class="sectionTwo_item sectionTwo_item_fourth_day">
+                <p class="day fourth_day"></p>
+                <img id="img_fourth_day" src="Assets/rain_s_cloudy.png" alt="sky">
+                <p><span class="temp_fourth_day">64</span><sup>&#186</sup></p>
+                <p class="pollen ">Pollen <span class="pollen_fourth_day"></span></p>
+            </div>
+            -->
+        </div>
+</div>
+    <script src="javascript.js"></script>
+</body>
+</html>

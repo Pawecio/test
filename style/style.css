@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+.container{
+    max-width: 700px;
+}
+.dropbtn {
+    background-color: rgb(45, 195, 188);
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 170px;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(52, 219, 169);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {
+    background-color: #ddd;
+}
+.show {
+    display: block;
+}
+.sectionOne_other{
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+}
+.sectionOne p{
+    margin: 3px;
+}
+.sectionOne .sectionOne_other .sectionOne_other_details{
+    align-self: center;
+}
+.sectionOne_other_details .color{
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+}
+.sectionOne_other_today_detail{
+    display: flex;
+}
+.sectionOne_other_today_detail span{
+    font-size: 30px;
+}
+.sectionTwo{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.sectionTwo .sectionTwo_item{
+    padding-left: 30px;
+}
+.sectionTwo .sectionTwo_item p{
+    margin: 3px;
+}
+.sectionTwo .sectionTwo_item .day{
+    font-weight: bold;
+}
+.sectionTwo .sectionTwo_item p span{
+    font-weight: bold;
+}
+.sectionTwo .sectionTwo_item .pollen{
+    font-size: 12px;
+    color: rgb(126, 126, 126);
+}
+
+
